@@ -1,0 +1,106 @@
+
+.rock {
+  
+    background-color: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  }
+  .ghost {
+   
+    background-color: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  }
+  .electric {
+    
+    background-color: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  }
+  .bug {
+    
+    background-color: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  }
+  .poison {
+    
+    background-color: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+  }
+  .normal {
+   
+    background-color: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  }
+  .fairy {
+   
+    background-color: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  }
+  .fire {
+    
+    background-color: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  }
+  .grass {
+    
+    background-color: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  }
+  .water {
+    
+    background-color: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  }
+  .ground{
+    
+  background-color: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+  
+  }
+  .img {
+    object-fit: contain !important;
+  }
+  .imageCompare {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .imageCompare_item {
+    width: 50% !important;
+  }
+  .button {
+    min-width: 0 !important;
+    padding: 0 !important;
+  }
+  .paddingIconComapre {
+    padding-left: 10px;
+  }
+  .cirkle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 11px;
+    color: #fff;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .imgSlider {
+    width: 100%;
+    height: 300px;
+    object-fit: scale-down;
+  }
+  .swiper-container {
+    list-style: none;
+  }
+  .swiper {
+    margin-top: 100px;
+  }
+  
+  .pagination {
+    bottom: 0;
+    padding-bottom: 4px;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    overflow: hidden;
+    line-height: 200px;
+  }
+  
